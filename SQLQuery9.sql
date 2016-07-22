@@ -1,4 +1,5 @@
-SELECT * FROM Customer
+USE dbMovie
+GO
 
 CREATE TABLE Customer
 (
@@ -8,6 +9,7 @@ FirstName varchar (20) NULL,
 LastName varchar (30) NULL,
 CompanyName varchar (30) NULL
 )
+GO
 
 INSERT INTO Customer
 VALUES (1, 'Consumer', 'Mark', 'Williams', NULL),
