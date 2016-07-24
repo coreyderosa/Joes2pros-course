@@ -1,11 +1,11 @@
-USE dbMovie
+USE JProCo
 GO
 
 SELECT *
-FROM tblMovie
+FROM Location
 
-UPDATE tblMovie
-SET m_title = 'Eeee-Ghads'
-WHERE m_id = 5
+UPDATE Location
+SET street = '111 1st Ave'
+WHERE city = 'Seattle'
 
 
