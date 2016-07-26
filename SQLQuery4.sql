@@ -1,0 +1,6 @@
+SELECT *
+FROM Movie
+
+ALTER TABLE Movie
+ADD m_Release int NOT NULL
+DEFAULT '2000'
