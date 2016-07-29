@@ -1,0 +1,7 @@
+USE master
+GO
+
+CREATE LOGIN Bernie
+WITH PASSWORD = 'ABC'
+
+DROP LOGIN Bernie
